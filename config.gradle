@@ -1,0 +1,15 @@
+ext {
+
+    android = [compileSdkVersion: 23,
+               buildToolsVersion: "23.0.3",
+               applicationId    : "com.forudesigns.foru",
+               minSdkVersion    : 15,
+               targetSdkVersion : 23,
+               versionCode      : 1,
+               versionName      : "1.0"]
+
+    dependencies = [
+            "nohttp"  : 'com.yolanda.nohttp:nohttp:1.0.5',
+            "fastjson": 'com.alibaba:fastjson:1.2.11'
+    ]
+}
